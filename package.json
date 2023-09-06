@@ -1,0 +1,21 @@
+{
+  "name": "realtime-video",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "repository": "https://github.com/JunBum2ya/realtime-video.git",
+  "author": "DESKTOP-FK2FMAS\\22cun <22cun2@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "packageManager": "yarn@3.6.3"
+}
